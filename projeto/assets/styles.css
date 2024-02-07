@@ -10,7 +10,7 @@ body {
 }
 
 .header {
-    background-color: #fff;
+    background-color: #1F1F1F;
 }
 
 .nav {
@@ -18,23 +18,26 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0 30px;
 }
 .title {
     display: flex;
     align-items: center;
+    text-transform: uppercase;
+    color: #fff;
 }
 .list {
     display: flex;
     gap: 60px;
     list-style: none;
 }
-
 a {
+    color: #fff;
     text-decoration: none;
-    fo
+    font-weight: bold;
+    text-transform: uppercase;
 }
 a:hover {
-    background-color: #580B8D;
-    color: #fff;
+    color: #ac41f3;
     border-radius: 5px;
 }
