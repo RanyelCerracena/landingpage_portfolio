@@ -10,7 +10,7 @@ body {
 }
 
 .header {
-    background-color: #1F1F1F;
+    background-color: #250246;
 }
 
 .nav {
@@ -41,3 +41,4 @@ a:hover {
     color: #ac41f3;
     border-radius: 5px;
 }
+
