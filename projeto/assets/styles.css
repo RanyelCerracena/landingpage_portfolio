@@ -1,13 +1,68 @@
+/* Estilo Geral */
 * {
     margin: 0;
     padding: 0;
-    font-family: ;
+    box-sizing: border-box;
+    font-family:'JetBrains Mono';
     --color-purple-light: #c252f2;
+    --color-purple-light2: #8032a1;
     --color-purple-dark1: #1a0859;
     --color-purple-dark2:#0c0a40;
     --color-purple-medium-light:#2a26a6;
     --color-purple-dark3:#080926;
 }
-p {
+body {
+    background-color: var(--color-purple-dark3);
+    height: 100vh;
+}
+.interface {
+    max-width: 1280px;
+    margin: auto;
+}
+/* Estilo do cabeçalho */
+header {
+    padding: 40px 4%;
+}
 
+header > .interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a {
+    color: var(--color-purple-light2);
+    text-decoration: none;
+    display: inline-block;
+}
+header a:hover {
+    color: var(--color-purple-light);
+    transform: scale(1.05);
+    transition: .2s;
+}
+
+header nav ul { 
+    list-style: none;
+}
+
+header nav ul li{ 
+    display: inline-block;
+    padding: 0 40px;
+}
+
+ header .btn-contato button {
+    height: 50px;
+    padding: 0 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: var(--color-purple-light);
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+header .btn-contato button:hover {
+    box-shadow: 0px 0px 8px var(--color-purple-light);
+}
+img {
+    width: 100px;
 }
