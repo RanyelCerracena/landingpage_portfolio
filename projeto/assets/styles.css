@@ -1,3 +1,50 @@
+/* {
+  "editor.fontSize": 16,
+  "code-runner.saveFileBeforeRun": true,
+  "explorer.confirmDragAndDrop": false,
+  "files.autoSave": "afterDelay",
+  "editor.formatOnSave": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.wordWrap": "on",
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "liveServer.settings.donotVerifyTags": true,
+  "explorer.confirmDelete": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "git.openRepositoryInParentFolders": "always",
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+  "symbols.hidesExplorerArrows": false,
+  "workbench.iconTheme": "symbols",
+  "workbench.colorTheme": "Palenight (Mild Contrast)",
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.lineHeight": 1.8,
+  "editor.renderLineHighlight": "gutter",
+  "workbench.editor.labelFormat": "short",
+  "explorer.compactFolders": false,
+  "editor.semanticHighlighting.enabled": false,
+  "breadcrumbs.enabled": false,
+  "workbench.activityBar.location": "hidden",
+  "editor.minimap.enabled": false,
+  "workbench.statusBar.visible": false,
+  "workbench.layoutControl.enabled": false,
+  "editor.scrollbar.vertical": "hidden",
+  "apc.header": {
+    "height": 35,
+  },
+  "apc.font.family": "Inter",
+  "apc.stylesheet": {
+    ".title-label > h2" : "display: none",
+    ".editor-actions": "display: none",
+  },
+  "apc.listRow": {
+    "height": 24
+  },
+  "window.menuBarVisibility": "compact",
+}
+ */
+
 /* Estilo Geral */
 * {
     margin: 0;
