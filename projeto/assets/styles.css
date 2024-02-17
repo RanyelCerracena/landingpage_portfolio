@@ -1,77 +1,33 @@
-/* {
-  "editor.fontSize": 16,
-  "code-runner.saveFileBeforeRun": true,
-  "explorer.confirmDragAndDrop": false,
-  "files.autoSave": "afterDelay",
-  "editor.formatOnSave": true,
-  "liveServer.settings.donotShowInfoMsg": true,
-  "editor.wordWrap": "on",
-  "[css]": {
-    "editor.defaultFormatter": "vscode.css-language-features"
-  },
-  "liveServer.settings.donotVerifyTags": true,
-  "explorer.confirmDelete": false,
-  "security.workspace.trust.untrustedFiles": "open",
-  "git.openRepositoryInParentFolders": "always",
-  "git.enableSmartCommit": true,
-  "git.autofetch": true,
-  "symbols.hidesExplorerArrows": false,
-  "workbench.iconTheme": "symbols",
-  "workbench.colorTheme": "Palenight (Mild Contrast)",
-  "editor.fontFamily": "JetBrains Mono",
-  "editor.lineHeight": 1.8,
-  "editor.renderLineHighlight": "gutter",
-  "workbench.editor.labelFormat": "short",
-  "explorer.compactFolders": false,
-  "editor.semanticHighlighting.enabled": false,
-  "breadcrumbs.enabled": false,
-  "workbench.activityBar.location": "hidden",
-  "editor.minimap.enabled": false,
-  "workbench.statusBar.visible": false,
-  "workbench.layoutControl.enabled": false,
-  "editor.scrollbar.vertical": "hidden",
-  "apc.header": {
-    "height": 35,
-  },
-  "apc.font.family": "Inter",
-  "apc.stylesheet": {
-    ".title-label > h2" : "display: none",
-    ".editor-actions": "display: none",
-  },
-  "apc.listRow": {
-    "height": 24
-  },
-  "window.menuBarVisibility": "compact",
-}
- */
-
 /* Estilo Geral */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:'JetBrains Mono';
+    font-family: 'JetBrains Mono';
     --color-purple-light: #c252f2;
     --color-purple-light2: #8032a1;
     --color-purple-dark1: #1a0859;
-    --color-purple-dark2:#0c0a40;
-    --color-purple-medium-light:#2a26a6;
-    --color-purple-dark3:#080926;
+    --color-purple-dark2: #0c0a40;
+    --color-purple-medium-light: #2a26a6;
+    --color-dark: #141414;
 }
+
 body {
-    background-color: var(--color-purple-dark3);
+    background-color: var(--color-dark);
     height: 100vh;
 }
+
 .interface {
     max-width: 1280px;
     margin: auto;
 }
+
 /* Estilo do cabeçalho */
 header {
     padding: 40px 4%;
 }
 
-header > .interface {
+header>.interface {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -82,22 +38,23 @@ header a {
     text-decoration: none;
     display: inline-block;
 }
+
 header a:hover {
     color: var(--color-purple-light);
     transform: scale(1.05);
     transition: .2s;
 }
 
-header nav ul { 
+header nav ul {
     list-style: none;
 }
 
-header nav ul li{ 
+header nav ul li {
     display: inline-block;
     padding: 0 40px;
 }
 
- header .btn-contato button {
+header .btn-contato button {
     height: 50px;
     padding: 0 40px;
     font-size: 18px;
@@ -107,9 +64,16 @@ header nav ul li{
     border-radius: 10px;
     cursor: pointer;
 }
+
 header .btn-contato button:hover {
     box-shadow: 0px 0px 8px var(--color-purple-light);
 }
+
 img {
     width: 100px;
+}
+
+.txt-topo-site img {
+    width: 350px;
+    border-radius: 200px;
 }
