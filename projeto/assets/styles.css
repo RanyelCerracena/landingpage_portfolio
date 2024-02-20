@@ -86,7 +86,10 @@ img {
 .txt-topo-site p {
     color: var(--color-white);
 }
-
+.img-topo-site {
+    padding: 0 0 0 60px;
+    width: 400px;
+}
 .img-topo-site>img {
     width: 350px;
     border-radius: 200px;
