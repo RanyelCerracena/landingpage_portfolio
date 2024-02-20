@@ -103,6 +103,8 @@ section.topo-site .flex {
     flex-direction: column;
     gap: 20px;
 }
+
+/* Inicio css do botão */
  .btn-contato button {
     height: 50px;
     padding: 0 40px;
@@ -131,3 +133,4 @@ section.topo-site .flex {
     color: var(--color-purple-light);
     font-size: 40px;
 }
+/* Fim css span e botão */
