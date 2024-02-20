@@ -9,16 +9,12 @@
     --color-purple-dark1: #1a0859;
     --color-purple-dark2: #0c0a40;
     --color-purple-medium-light: #2a26a6;
-<<<<<<< HEAD
     --color-purple-dark3: #080926;
     --color-white: #f5f5f5;
-=======
-    --color-dark: #141414;
->>>>>>> 14768c6838e2e427f2c23bfc13078a230bbbdcee
 }
 
 body {
-    background-color: var(--color-dark);
+    background-color: var(--color-purple-dark3);
     height: 100vh;
 }
 
@@ -27,13 +23,10 @@ body {
     margin: auto;
 }
 
-<<<<<<< HEAD
 .flex {
     display: flex;
 }
 
-=======
->>>>>>> 14768c6838e2e427f2c23bfc13078a230bbbdcee
 /* Estilo do cabeçalho */
 header {
     padding: 40px 4%;
@@ -81,15 +74,11 @@ header .btn-contato button:hover {
     box-shadow: 0px 0px 8px var(--color-purple-light);
 }
 
-<<<<<<< HEAD
 /* Estilo do topo do site */
-=======
->>>>>>> 14768c6838e2e427f2c23bfc13078a230bbbdcee
 img {
     width: 100px;
 }
 
-<<<<<<< HEAD
 .txt-topo-site h1 {
     color: var(--color-white);
 }
@@ -113,9 +102,4 @@ section.topo-site .flex {
     display: flex;
     flex-direction: column;
     gap: 20px;
-=======
-.txt-topo-site img {
-    width: 350px;
-    border-radius: 200px;
->>>>>>> 14768c6838e2e427f2c23bfc13078a230bbbdcee
 }
