@@ -1,5 +1,6 @@
 /* Estilo Geral */
 * {
+    scroll-behavior: smooth;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -59,6 +60,10 @@ header nav ul li {
     padding: 0 40px;
 }
 
+header .btn-contato {
+    width: 155px;
+}
+
 header .btn-contato button {
     height: 50px;
     padding: 0 40px;
@@ -96,6 +101,7 @@ img {
 }
 .topo-site {
     padding: 40px 4%;
+    text-align: justify;
 }
 section.topo-site .flex {
     justify-content: center;
@@ -108,6 +114,10 @@ section.topo-site .flex {
 }
 
 /* Inicio css do botão */
+.btn-contato {
+    width: 254px;
+    height: 50px;
+}
  .btn-contato button {
     height: 50px;
     padding: 0 40px;
@@ -133,7 +143,10 @@ section.topo-site .flex {
     font-size: 1.3rem;
 }
 .txt-topo-site span {
-    color: var(--color-purple-light);
-    font-size: 40px;
+    display: inline-block;
+    background-color: var(--color-purple-light);
+    width: 7px;
+    height: 7px;
+    border-radius: 200px;
 }
 /* Fim css span e botão */
