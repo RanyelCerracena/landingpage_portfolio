@@ -91,6 +91,9 @@ img {
 .txt-topo-site p {
     color: var(--color-white);
 }
+.txt-topo-site p,h1 {
+    text-shadow: 0 0 6px #c252f2;
+}
 .img-topo-site {
     padding: 0 0 0 60px;
     width: 400px;
